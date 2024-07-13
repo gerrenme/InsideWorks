@@ -1,4 +1,4 @@
-# Info21 v1.0
+# InsideWorks
 
 ![SQL2](img/intro.jpg)
 
@@ -138,18 +138,7 @@ Write a *part1.sql* script that creates the database and all the tables describe
 Also, add procedures to the script that allow you to import and export data for each table from/to a file with a *.csv* extension. \
 The *csv* file separator is specified as a parameter of each procedure.
 
-In each of the tables, enter at least 5 records.
-As you progress through the task, you will need new data to test all of your choices.
-This new data needs to be added to this script as well.
-
-If *csv* files were used to add data to the tables, they must also be uploaded to the GIT repository.
-
-*All tasks must be named in the format of names for School 21, for example A5_s21_memory. \
-In the future, Whether a task belongs to a block will be determined by the name of the block in the task name, e.g. "CPP3_SmartCalc_v2.0" belongs to the CPP block. \*
-
 ## Part 2. Changing data
-
-Create a *part2.sql* script, in which, in addition to what is described below, add test queries/calls for each item.
 
 ##### 1) Write a procedure for adding P2P check
 Parameters: nickname of the person being checked, checker's nickname, task name, [P2P check status]( #check-status), time. \
@@ -170,9 +159,6 @@ The record is considered correct if:
 If the record does not pass the check, do not add it to the table.
 
 ### Part 3. Getting data
-
-Create a *part3.sql* script, in which you should include the following procedures and functions
-(consider as procedures all tasks that do not specify that they are functions).
 
 ##### 1) Write a function that returns the TransferredPoints table in a more human-readable form
 Peer's nickname 1, Peer's nickname 2, number of transferred peer points. \
@@ -339,8 +325,6 @@ Output example:
 ## Bonus. Part 4. Metadata
 
 For this part of the task, you need to create a separate database, in which to create the tables, functions, procedures, and triggers needed to test the procedures.
-
-Add the creation and filling of this database, as well as the written procedures, to the *part4.sql* file.
 
 ##### 1) Create a stored procedure that, without destroying the database, destroys all those tables in the current database whose names begin with the phrase 'TableName'.
 
